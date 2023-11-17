@@ -100,6 +100,7 @@ class ClubDAOTest {
     void mejorValorado() {
         String esperado ="El evento mejor valorado es Partido de futbol sala con una media de: 5.00\n";
         String res = dao.mejorValorado();
+
         assertEquals(esperado,res);
     }
 
